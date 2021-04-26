@@ -99,10 +99,6 @@ export let Register = () => {
           required
         />
         <br />
-        <div className={emailVaild ? "validate-hidden" : "validate-show"}>
-          <em>Invalid Email-id</em>
-          <br />
-        </div>
 
         <label htmlFor="last_name">last Name : </label>
         <input onChange={handleChange} id="last_name" type="text" required />
